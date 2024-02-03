@@ -4,7 +4,7 @@ print('\tTab')
 # raw strings print strings as is
 print(r'\tTab')
 
-text_to_search = 'abcdefghaindlifahsiehfoiabc'
+text_to_search = 'abcdefghaindlifahsiehfoiabcde'
 
 pattern = re.compile(r'abc')
 
