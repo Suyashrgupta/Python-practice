@@ -14,4 +14,23 @@
 $   - end of a String
 
 []  - matches one character from the characters given in brackets
+[2-9] - matches characters in the range specified
+[a-zA-Z] - matches multiple ranges
 [^ ]- matches one characters not from the characters in brackets
+
+# Grouping
+
+()  - anything within the bracket becomes one group
+|   - pipe symbol is used as either or in the group
+
+Quantifiers:
+
+*   - 0 or more
++   - 1 or more
+?   - 0 or one (after the character)
+{3} - Exact Number
+{3,4} - Range of numbers
+
+#### Sample Email Regex ####
+
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
